@@ -28,7 +28,7 @@ under the License.
   <artifactId>flatten-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
   <name>Maven Flatten Plugin</name>
-  <version>1.0.0-beta-5</version>
+  <version>1.0.0-beta-5-MODELBUILDER_PR13</version>
   <description>Plugin to generate flattened POM (reduced to information required for consumers of maven repositories) and to use (install, sign, deploy) it instead of original pom.xml.</description>
   <inceptionYear>2014</inceptionYear>
   <prerequisites>
@@ -81,7 +81,7 @@ under the License.
       <artifactId>plexus-utils</artifactId>
       <version>3.0.17</version>
     </dependency>
-    
+
     <dependency>
       <groupId>org.apache.maven.plugin-tools</groupId>
       <artifactId>maven-plugin-annotations</artifactId>
